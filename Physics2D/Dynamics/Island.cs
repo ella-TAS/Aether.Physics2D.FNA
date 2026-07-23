@@ -51,8 +51,8 @@ namespace nkast.Aether.Physics2D.Dynamics
         private Contact[] _contacts;
         private Joint[] _joints;
 
-        private static float LinTolSqr = Settings.LinearSleepTolerance * Settings.LinearSleepTolerance;
-        private static float AngTolSqr = Settings.AngularSleepTolerance * Settings.AngularSleepTolerance;
+        private static float LinTolSqr => Settings.LinearSleepTolerance * Settings.LinearSleepTolerance;
+        private static float AngTolSqr => Settings.AngularSleepTolerance * Settings.AngularSleepTolerance;
         private Stopwatch _watch = new Stopwatch();
 
         public Body[] Bodies;
