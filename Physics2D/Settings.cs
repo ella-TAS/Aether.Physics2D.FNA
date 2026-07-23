@@ -118,13 +118,13 @@ namespace nkast.Aether.Physics2D
         public static float AABBMultiplier = 2.0f;
 
         /// <summary>
-        /// A small length used as a collision and staticraint tolerance. Usually it is
+        /// A small length used as a collision and constraint tolerance. Usually it is
         /// chosen to be numerically significant, but visually insignificant.
         /// </summary>
         public static float LinearSlop = 0.005f;
 
         /// <summary>
-        /// A small angle used as a collision and staticraint tolerance. Usually it is
+        /// A small angle used as a collision and constraint tolerance. Usually it is
         /// chosen to be numerically significant, but visually insignificant.
         /// </summary>
         public static float AngularSlop = (2.0f / 180.0f * Constant.Pi);
@@ -150,13 +150,13 @@ namespace nkast.Aether.Physics2D
         public static float VelocityThreshold = 1.0f;
         
         /// <summary>
-        /// The maximum linear position correction used when solving staticraints. This helps to
+        /// The maximum linear position correction used when solving constraints. This helps to
         /// prevent overshoot.
         /// </summary>
         public static float MaxLinearCorrection = 0.2f;
 
         /// <summary>
-        /// The maximum angular position correction used when solving staticraints. This helps to
+        /// The maximum angular position correction used when solving constraints. This helps to
         /// prevent overshoot.
         /// </summary>
         public static float MaxAngularCorrection = (8.0f / 180.0f * Constant.Pi);
