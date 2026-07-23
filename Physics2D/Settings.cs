@@ -190,7 +190,7 @@ namespace nkast.Aether.Physics2D
         /// </summary>
         public static float MaxTranslation = 2.0f;
 
-        public static float MaxTranslationSquared = (MaxTranslation * MaxTranslation);
+        public static float MaxTranslationSquared => (MaxTranslation * MaxTranslation);
 
         /// <summary>
         /// The maximum angular velocity of a body. This limit is very large and is used
@@ -198,7 +198,7 @@ namespace nkast.Aether.Physics2D
         /// </summary>
         public static float MaxRotation = (0.5f * Constant.Pi);
 
-        public static float MaxRotationSquared = (MaxRotation * MaxRotation);
+        public static float MaxRotationSquared => (MaxRotation * MaxRotation);
 
         /// <summary>
         /// Defines the maximum number of iterations made by the GJK algorithm.
